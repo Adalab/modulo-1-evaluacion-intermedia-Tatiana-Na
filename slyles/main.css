@@ -1,6 +1,7 @@
 * {
     font-family: 'Rubik', sans-serif;
 }
+
 .header { 
     display: flex;
     flex-direction: column;
@@ -8,8 +9,7 @@
     align-items: center;
     position: fixed;
     background-color: white;
-    width: 100vw;
-    
+    width: 100vw;   
 }
 
 .Logo {
@@ -21,18 +21,34 @@
 }
 
 .Button {
+    line-height: 20px;
+    text-transform: uppercase;
     border: none;
     background-color: white;
-    color: #4a4a4a;
-    font-size: 16px;
     gap: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 13px;
+    margin-top: 5px;
+    margin-bottom: 13px;    
 }
+
+.blog {
+    color: #4a4a4a;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none; 
+    padding: 5px 5px 5px 5px;    
+}
+.contact {
+    color: #4a4a4a;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none; 
+    padding: 5px 5px 5px 5px;      
+}
+
 .main {
     background-color: #3CDBC0;
     height: 100vh;
@@ -42,58 +58,33 @@
 }
 h1 {
    font-size: 30px;
+   text-transform: uppercase;
     color: #FFFFFF;
     font-weight: bold;
     line-height: 40px;
-    width: 50%;
+    width: 40%;
     text-align: center;
-    white-space: pre-wrap;
-
 }
 
 @media screen and (min-width: 768px) {
+
     .header { 
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center; 
-        position: absolute;
-        width: 100vw;
-        background-color: white; 
+        position: absolute; 
     }
     
     .Logo {
-        width: 155px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin-left: 30px;
-        margin-top: 10px;
         margin-bottom: 20px;
     }
     .Button {
-        border: none;
-        background-color: white;
-        color: #4a4a4a;
-        font-size: 16px;
-        gap: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        margin-bottom: 13px;
+        align-items: center;  
         margin-right: 30px ;
     }
+
     h1 {
         font-size: 40px;
-        color: #FFFFFF;
-        font-weight: bold;
-        line-height: 40px;
-        width: 50%;
-        text-align: center;
-        white-space: pre-wrap;
-    
     }
     } 
     
